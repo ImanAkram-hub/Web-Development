@@ -1,0 +1,22 @@
+<!-- Our HTML code Starts Here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Heading Paragraphs </title>
+</head>
+<body>
+    <h1> Iman Akram</h1>
+    <h2> Iman Akram</h2>
+    <h3> Iman Akram</h3>
+    <h4> Iman Akram</h4>
+    <h5> Iman Akram</h5>
+    <h6> Iman Akram</h6>
+     <p>Lorem ipsum dolor sit.</p>    <!--   setting ---- commndpalette-----toggle word wrap  --> 
+     <p></p>  <!--p*4 use for four paragraphs -->
+     <p></p>
+     <p></p>
+     <p></p>
+</body>
+</html>
