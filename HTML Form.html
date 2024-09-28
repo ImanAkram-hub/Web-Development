@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <h2>This is HTML Form.</h2> 
+  <form action="backend.php">
+    <label for="Name">Name</label>
+     <!--when you click on text , it can be selected , it is use for those person 
+    who have week eye sight-->
+    <div>
+      
+         <input type="text"name=" MyName" id="Name">
+    </div>
+    <br>
+    <label for="Role">Role</label>
+    <div> 
+       
+          <input type="text" name=" MyRole">
+    </div>
+    <br>
+    <label for="Email">Email</label>
+    <div>
+     <input type="email" name=" MyEmail" >
+    </div>
+    <br>
+    <label for="Date">Date</label>
+    <div>
+         <input type="date" name="" id="">
+    </div>
+    <br>
+    <label for="Bonus">Bonus</label>
+    <div>
+       
+        <input type="number" name=" MyBonus" >
+    </div>
+    <br>
+
+    <div>
+        Are you Eligible ?   <input type="checkbox" name=" My eligibilty" checked>
+     </div>
+     <br>
+     <div> <!--radio button is used , when you want to click / choose only on thing-->
+        Gender:  Male <input type="radio" name=" MyGender" >   Female <input type="radio" name=" MyGender" > Other <input type="radio" name=" MyGender" >
+     </div>
+     <br>
+     <div>
+       Write about Yourself: <br><textarea name="MyText" cols="90" rows="10"></textarea>
+    </div>
+    <br>
+    <br>
+     <div>
+       <label for="car">Car </label> 
+       <select name="MyCar" id="car">
+     <option value="ind">Indica</option>
+     <option value="swf" selected>Swift</option> <!--selected word is used if we want that this thing is selected-->
+       </select>   
+    </div>
+    <br>
+    <div>
+     <input type="submit" value="Submit Now">
+    </div>
+
+    <br>
+    <div>
+     <input type="reset" value="Reset Data">
+    </div>
+
+  </form>
+</body>
+</html>
